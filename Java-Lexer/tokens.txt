@@ -1,0 +1,25 @@
+9. identifier -> identifier
+10. anotherWord -> identifier
+11. I_Have_$Money -> identifier
+12. ++-+ -> not one token (-) operator
+13. "string" -> string literals
+14. "string with words" -> string literal
+15. "string with \" escapes" -> string literal
+16. default -> keyword
+17. >>>= -> operators
+18. <<<= -> not one token (<) operators
+19. 123_456 -> Decimal Numeral
+20. 28L -> Integer literals
+21. 72K -> not one token (k)
+22. 59_ -> not one token (_)
+23. _88 -> identifier
+24. _34_ -> identifier
+25. 0xAB -> HexNumeral
+26. 0x38B8 -> HexNumeral
+27. 0x -> not one token (x)
+28. 0x_ -> not one token (x)
+29. 0x_3 -> HexNumeral
+30. 0_3 -> OctalNumeral
+31. 0123456789 -> not one token (8)
+32. 0H12 -> not one token (H)
+33. 0L45 -> not one token (4)
